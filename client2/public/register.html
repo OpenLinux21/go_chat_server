@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天系统 - 注册</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body class="auth-page">
+    <div class="container">
+        <div class="auth-box">
+            <div class="logo text-center mb-4">
+                <h1>Chat System</h1>
+            </div>
+            <form id="registerForm" class="auth-form">
+                <div class="mb-3">
+                    <label for="username" class="form-label">用户名</label>
+                    <input type="text" class="form-control" id="username"
+                           placeholder="5-20位字母/数字/下划线"
+                           pattern="^[a-zA-Z0-9_]{5,20}$"
+                           required>
+                </div>
+                <div class="mb-4">
+                    <label for="password" class="form-label">密码</label>
+                    <input type="password" class="form-control" id="password"
+                           placeholder="8-128位，至少包含大小写和数字"
+                           pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,128}$"
+                           required>
+                </div>
+                <button type="submit" class="btn btn-primary w-100 btn-lg">注 册</button>
+                <div class="mt-3 text-center">
+                    <a href="/" class="text-decoration-none">已有账号？立即登录</a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>

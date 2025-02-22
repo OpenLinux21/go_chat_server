@@ -1,0 +1,62 @@
+2025/02/22 14:08:44 Database initialized
+2025/02/22 14:08:44 Server starting on port 0
+2025/02/22 14:09:11 Database initialized
+2025/02/22 14:09:11 Server starting on port 8011
+2025/02/22 14:12:40 Database initialized
+2025/02/22 14:12:40 Server starting on port 8011
+2025/02/22 15:43:34 User registered: Pop64
+2025/02/22 15:44:48 User logged in: Pop64
+2025/02/22 19:24:04 Database initialized
+2025/02/22 19:24:04 Server starting on port 8011
+2025/02/22 19:37:57 Database initialized
+2025/02/22 19:37:57 Server starting on port 8011
+2025/02/22 19:44:46 Database initialized
+2025/02/22 19:44:46 Server starting on port 8011
+2025/02/22 19:44:53 User registered: Pop648
+2025/02/22 19:45:18 User logged in: Pop648
+2025/02/22 19:45:40 Friend request sent: 2 to 1
+2025/02/22 19:48:15 User logged in: Pop64
+2025/02/22 19:48:28 User logged in: Pop64
+2025/02/22 19:48:35 Friend request sent: 1 to 3
+2025/02/22 19:52:20 User registered: testuser
+2025/02/22 19:52:21 User registered: testuser2
+2025/02/22 19:52:22 User logged in: testuser
+2025/02/22 19:52:22 User updated profile: testuser
+2025/02/22 19:52:22 Token refreshed for user: testuser
+2025/02/22 19:52:23 User changed password: testuser
+2025/02/22 19:52:23 Friend added: 3 -> 4
+2025/02/22 19:52:23 Friend request sent: 3 to 4
+2025/02/22 19:52:24 User logged in: testuser2
+2025/02/22 19:52:24 Private chat created: 70fa8892-3acf-45dd-b136-5d49bd7e52c9
+2025/02/22 19:52:24 Private message sent in chat 70fa8892-3acf-45dd-b136-5d49bd7e52c9 by 3
+2025/02/22 19:52:24 Private file sent in chat 70fa8892-3acf-45dd-b136-5d49bd7e52c9 by 3
+2025/02/22 19:52:24 Group chat created: c2d8b9f3-160c-45f1-8042-5e2739cea84e
+2025/02/22 19:52:24 Group chat name updated: c2d8b9f3-160c-45f1-8042-5e2739cea84e
+2025/02/22 19:52:24 Group message sent in group c2d8b9f3-160c-45f1-8042-5e2739cea84e by 3
+2025/02/22 19:52:24 重复文件，直接复用： files/cache/testfile.txt
+2025/02/22 19:54:29 User logged in: testuser
+2025/02/22 19:54:29 User updated profile: testuser
+2025/02/22 19:54:30 Token refreshed for user: testuser
+2025/02/22 19:54:31 User changed password: testuser
+2025/02/22 19:54:31 Friend request sent: 3 to 4
+2025/02/22 19:54:32 User logged in: testuser2
+2025/02/22 19:54:32 Private chat created: 3bb82097-4f48-4875-b91b-c926cc1e6d7f
+2025/02/22 19:54:32 Private message sent in chat 3bb82097-4f48-4875-b91b-c926cc1e6d7f by 3
+2025/02/22 19:54:32 重复文件，直接复用： files/cache/testfile.txt
+2025/02/22 19:54:32 Group chat created: 02eddde4-0802-47f7-966b-bb106fb26b82
+2025/02/22 19:54:32 Group chat name updated: 02eddde4-0802-47f7-966b-bb106fb26b82
+2025/02/22 19:54:32 Group message sent in group 02eddde4-0802-47f7-966b-bb106fb26b82 by 3
+2025/02/22 19:54:32 重复文件，直接复用： files/cache/testfile.txt
+2025/02/22 19:56:12 User logged in: testuser
+2025/02/22 19:56:12 User updated profile: testuser
+2025/02/22 19:56:12 Token refreshed for user: testuser
+2025/02/22 19:56:14 User changed password: testuser
+2025/02/22 19:56:14 Friend request sent: 3 to 4
+2025/02/22 19:56:14 User logged in: testuser2
+2025/02/22 19:56:14 Private chat created: f4767f57-a649-4a33-9b7f-11c8f2633469
+2025/02/22 19:56:14 Private message sent in chat f4767f57-a649-4a33-9b7f-11c8f2633469 by 3
+2025/02/22 19:56:14 重复文件，直接复用： files/cache/testfile.txt
+2025/02/22 19:56:14 Group chat created: 6f124390-5250-4cbe-8f49-ed61c294d4ca
+2025/02/22 19:56:14 Group chat name updated: 6f124390-5250-4cbe-8f49-ed61c294d4ca
+2025/02/22 19:56:14 Group message sent in group 6f124390-5250-4cbe-8f49-ed61c294d4ca by 3
+2025/02/22 19:56:14 重复文件，直接复用： files/cache/testfile.txt

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>聊天系统 - 主界面</title>
+    <link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- 左侧侧边栏 -->
+        <aside class="sidebar">
+            <div class="user-panel p-3 border-bottom">
+                <div class="d-flex align-items-center">
+                    <div class="me-3">
+                        <img src="https://via.placeholder.com/40"
+                             class="avatar rounded-circle"
+                             alt="用户头像"
+                             style="width: 40px; height: 40px;">
+                    </div>
+                    <div class="user-info">
+                        <h6 class="mb-0 username">用户名</h6>
+                        <small class="text-muted user-status">在线</small>
+                    </div>
+                </div>
+            </div>
+
+            <div class="nav-tabs">
+                <ul class="nav nav-pills flex-column">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#friends" data-bs-toggle="tab">好友</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#groups" data-bs-toggle="tab">群聊</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="tab-content">
+                <!-- 好友列表 -->
+                <div class="tab-pane fade show active" id="friends">
+                    <div class="p-2">
+                        <div class="d-flex mb-2">
+                            <input type="text" class="form-control search-input"
+                                   placeholder="搜索好友">
+                            <button class="btn btn-outline-primary ms-2 add-friend-btn">
+                                <i class="bi bi-person-plus"></i>
+                            </button>
+                        </div>
+                        <div class="friends-list"></div>
+                    </div>
+                </div>
+
+                <!-- 群聊列表 -->
+                <div class="tab-pane fade" id="groups">
+                    <div class="p-2">
+                        <button class="btn btn-primary w-100 mb-3 create-group-btn">
+                            创建群聊
+                        </button>
+                        <div class="groups-list"></div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- 主聊天区域 -->
+        <main class="chat-main">
+            <!-- 聊天头部 -->
+            <div class="chat-header p-3 border-bottom d-flex align-items-center">
+                <div class="chat-info">
+                    <h5 class="mb-0 chat-title">私聊</h5>
+                    <small class="text-muted participant-count">2人</small>
+                </div>
+                <div class="ms-auto">
+                    <button class="btn btn-sm btn-outline-secondary chat-settings">
+                        <i class="bi bi-gear"></i>
+                    </button>
+                </div>
+            </div>
+
+            <!-- 消息容器 -->
+            <div class="message-container">
+                <div class="message-list"></div>
+            </div>
+
+            <!-- 输入区域 -->
+            <div class="input-area p-3 border-top">
+                <div class="input-group">
+                    <textarea class="form-control message-input"
+                              placeholder="输入消息..."
+                              rows="1"
+                              style="resize: none"></textarea>
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary file-upload-btn"
+                                type="button">
+                            <i class="bi bi-paperclip"></i>
+                        </button>
+                        <button class="btn btn-primary send-btn">发送</button>
+                    </div>
+                </div>
+                <div class="file-progress mt-2" style="display: none;">
+                    <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 0%"></div>
+                    </div>
+                    <small class="file-info text-muted"></small>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 文件上传输入 -->
+    <input type="file" id="file-input" style="display: none;">
+
+    <script type="module" src="./js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="app">
+    <!-- 登录 / 注册区域 -->
+    <div id="auth-container">
+      <!-- 登录表单 -->
+      <div id="login-form">
+        <h2>登录</h2>
+        <input type="text" id="login-username" placeholder="用户名">
+        <input type="password" id="login-password" placeholder="密码">
+        <button id="login-btn">登录</button>
+        <p>没有账号？ <a href="#" id="show-register">立即注册</a></p>
+      </div>
+      <!-- 注册表单 -->
+      <div id="register-form" style="display: none;">
+        <h2>注册</h2>
+        <input type="text" id="register-username" placeholder="用户名">
+        <input type="password" id="register-password" placeholder="密码">
+        <button id="register-btn">注册</button>
+        <p>已有账号？ <a href="#" id="show-login">去登录</a></p>
+      </div>
+    </div>
+
+    <!-- 聊天区域 -->
+    <div id="chat-container" style="display: none;">
+      <header>
+        <h2>Chat App</h2>
+        <button id="logout-btn">退出登录</button>
+      </header>
+      <div id="main">
+        <!-- 好友列表 -->
+        <aside id="friend-list">
+          <h3>好友列表</h3>
+          <ul id="friends"></ul>
+          <!-- 添加好友区域 -->
+          <div id="friend-actions">
+            <input type="text" id="friend-id-input" placeholder="好友用户ID">
+            <button id="add-friend-btn">添加好友</button>
+          </div>
+        </aside>
+        <!-- 聊天窗口 -->
+        <section id="chat-section">
+          <div id="chat-header">
+            <span>当前聊天对象：<span id="chat-target">无</span></span>
+          </div>
+          <div id="messages"></div>
+          <div id="message-input">
+            <input type="text" id="message-text" placeholder="输入消息">
+            <button id="send-btn">发送</button>
+          </div>
+        </section>
+      </div>
+      <!-- 调试日志面板 -->
+      <div id="log-panel">
+        <h4>调试日志</h4>
+        <div id="log-content"></div>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

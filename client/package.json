@@ -1,0 +1,13 @@
+{
+  "name": "chat-frontend-app",
+  "version": "1.0.0",
+  "description": "Chat Frontend App using Node.js, HTML, CSS, and JS",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  }
+}
