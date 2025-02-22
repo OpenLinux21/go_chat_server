@@ -1,8 +1,8 @@
-Go Chat Server
+# Go Chat Server
 
-A high-performance instant messaging backend server supporting private/group chats, friend management, file transfers, and more.
-
+### A high-performance instant messaging backend server supporting private/group chats, friend management, file transfers, and more.
 ## Features
+
 ✅ User system (registration/login/profile management)
 ✅ Friend management (add/remove/block)
 ✅ Real-time private messaging (text/files)
@@ -14,6 +14,7 @@ A high-performance instant messaging backend server supporting private/group cha
 ## Quick Start
 ### Installation & Deployment
 Clone the repository:
-'''bash
+
+''' bash
 git clone https://github.com/OpenLinux21/go_chat_server.git
 cd go-chat-server
