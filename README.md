@@ -15,7 +15,7 @@
 ### Installation & Deployment
 Clone the repository:
 
-''' sh
+``` bash
 git clone https://github.com/OpenLinux21/go_chat_server.git
 cd go-chat-server
-'''
+```
