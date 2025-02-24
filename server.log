@@ -60,3 +60,16 @@
 2025/02/22 19:56:14 Group chat name updated: 6f124390-5250-4cbe-8f49-ed61c294d4ca
 2025/02/22 19:56:14 Group message sent in group 6f124390-5250-4cbe-8f49-ed61c294d4ca by 3
 2025/02/22 19:56:14 重复文件，直接复用： files/cache/testfile.txt
+2025/02/23 08:40:11 User logged in: testuser
+2025/02/23 08:40:12 User updated profile: testuser
+2025/02/23 08:40:12 Token refreshed for user: testuser
+2025/02/23 08:40:15 User changed password: testuser
+2025/02/23 08:40:15 Friend request sent: 3 to 4
+2025/02/23 08:40:17 User logged in: testuser2
+2025/02/23 08:40:17 Private chat created: 4f8e7e8a-0902-4e6b-9714-698d76406c90
+2025/02/23 08:40:17 Private message sent in chat 4f8e7e8a-0902-4e6b-9714-698d76406c90 by 3
+2025/02/23 08:40:17 重复文件，直接复用： files/cache/testfile.txt
+2025/02/23 08:40:17 Group chat created: ca836730-7dff-40b0-b8b2-d391cd56872d
+2025/02/23 08:40:17 Group chat name updated: ca836730-7dff-40b0-b8b2-d391cd56872d
+2025/02/23 08:40:17 Group message sent in group ca836730-7dff-40b0-b8b2-d391cd56872d by 3
+2025/02/23 08:40:17 重复文件，直接复用： files/cache/testfile.txt
